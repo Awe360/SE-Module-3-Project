@@ -1,0 +1,90 @@
+.navbar{
+    background-color: rgb(139, 139, 139);
+    text-align: center;
+    height: 80px;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav{
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    margin-right: 20px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.nav:hover{
+    background-color: blue;
+
+}
+.form{
+    text-align: center;
+   
+}
+.com{
+    padding: 5px;
+    margin-left: 21px;
+    margin-bottom: 10px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .hospital {
+    position: relative;
+  }
+  
+  .building {
+    width: 200px;
+    height: 200px;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+  }
+  
+  .roof {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 20px solid #f2f2f2;
+  }
+  
+  .sign {
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3em;
+    font-weight: bold;
+  }
+  
+  .ambulance {
+    position: absolute;
+    top: 130px;
+    left: -100px;
+    width: 100px;
+    height: 50px;
+    background-color: #ff0000;
+    border-radius: 10px;
+    animation: moveAmbulance 5s infinite linear;
+  }
+  
+  @keyframes moveAmbulance {
+    0% {
+      left: -100px;
+    }
+    50% {
+      left: calc(100% + 100px);
+    }
+    100% {
+      left: -100px;
+    }
+  }
+  
