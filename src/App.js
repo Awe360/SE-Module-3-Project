@@ -23,14 +23,13 @@ function App(){
     <Link className="nav"to='/HMR'>HMR</Link>
     <Link className="nav"to='/Finance'>Finance</Link>
     </nav>
-
+  
     <Routes>
       <Route path='/' element={<Hom/>}></Route>
       <Route path='/Content' element={<Content/>}></Route>
       <Route path='/Campaign' element={<Campaign/>}></Route>
       <Route path='/Reception' element={<Reception/>}></Route>
       <Route path='/Manager' element={<Manager/>}></Route>
-      {/* <Route path='/Admin' element={<Admin/>}></Route> */}
       <Route path='/ContentCreator' element={<ContentCreator/>}></Route>
       <Route path='/Employee' element={<Employee/>}></Route>
       <Route path='/HMR' element={<HMR/>}></Route>
@@ -45,5 +44,6 @@ function App(){
         </div>
   )
 }
+//asdcvjhbdfhjksbs
 export default App
 

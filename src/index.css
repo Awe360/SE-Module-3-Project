@@ -1,0 +1,47 @@
+/* .home{
+  background-color: aqua;
+  text-align: center;
+}
+.home:hover{
+  background-color: blue;
+  color:red;
+}
+.lis{
+  text-align: center;
+  margin: auto;
+  background-color: rgb(248, 248, 41);
+  width:100px;
+}
+.awe{
+  margin-bottom: 2px;
+  background-color: aqua;
+  text-align: center;
+  height: 100vh;
+  padding-top: 300px;
+ 
+}
+.btn{
+  background-color: rgb(0, 97, 5);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.com{
+  text-align: center;
+  background-color: aqua;
+  width:400px;
+  margin: auto;
+}
+.com button{
+  padding:10px;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+.com button:hover{
+  background-color: blue;
+} */
+.nav{
+  background-color: rgb(35, 34, 34);
+}
